@@ -15,3 +15,10 @@ Our ESLint configuration is a modified version of [AirBNB's excellent config](ht
   ```
     npm install --save-dev eslint-config-arcadia
   ```
+
+## Publishing
+The config is hosted as an NPM package on Gemfury.
+
+1. In your pull request, bump the version.
+2. After merging, pull master and run `npm pack`
+3. Upload the resulting package on the [Gemfury dashboard](https://manage.fury.io/dashboard/arcadiapower).
