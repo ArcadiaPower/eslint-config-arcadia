@@ -34,8 +34,7 @@ module.exports = {
 
     "max-len": "off",                 // TBD
     "no-confusing-arrow": "off",      // TBD --fixable
-    "no-console": "off",              // TBD
-    "no-else-return": "off",          // TBD --fixable
+    "no-console": "warn",             // Team Preference
     "no-mixed-operators": "off",      // TBD
     "no-param-reassign": "off",       // TBD
     "no-plusplus": "off",             // TBD
@@ -43,18 +42,15 @@ module.exports = {
     "no-restricted-globals": "off",   // TBD
     "no-shadow": "off",               // TBD
     "no-underscore-dangle": "off",    // TBD
-    "no-unused-vars": ["error", {     // Team Preference
-      "args": "none"
-    }],
     "no-use-before-define": "off",    // Team Preference
-    "object-curly-newline": "off",    // TBD --fixable
+    "object-curly-newline": "off",    // Team Preference
     "prefer-arrow-callback": "off",   // TBD --fixable
     "prefer-destructuring": "off",    // Team Preference
     "prefer-rest-params": "off",      // TBD
     "radix": "off",                   // Team Preference
 
     "react/forbid-prop-types": "off",             // TBD
-    "react/jsx-boolean-value": "off",             // TBD --fixable
+    "react/jsx-boolean-value": ["error", "always"],
     "react/jsx-closing-bracket-location": "off",  // TBD --fixable
     "react/jsx-no-bind": "off",                   // TBD
     "react/jsx-no-target-blank": "off",           // TBD
@@ -64,7 +60,6 @@ module.exports = {
     "react/no-unescaped-entities": ["error", {    // Team Preference
       "forbid": [">", "}"]
     }],
-    "react/no-unused-prop-types": "off",          // TBD
     "react/prefer-stateless-function": "off",     // Team Preference
     "react/require-default-props": "off",         // TBD
     "react/self-closing-comp": "off",             // TBD
