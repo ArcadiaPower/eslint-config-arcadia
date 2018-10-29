@@ -6,8 +6,10 @@ module.exports = {
     "node": true
   },
   "rules": {
-    "arrow-body-style": "off",            // Team Preference
-    "arrow-parens": ["error", "always"],  // Team Preference
+    "arrow-body-style": "off",                  // Team Preference
+    "arrow-parens": ["error", "as-needed", {    // Team Preference
+        "requireForBlockBody": true
+    }],
     "class-methods-use-this": "off",      // TBD
     "comma-dangle": ["error", {           // Team Preference
       "objects": "always-multiline"
