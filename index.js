@@ -37,6 +37,7 @@ module.exports = {
     "max-len": "off",                 // TBD
     "no-confusing-arrow": "off",      // TBD --fixable
     "no-console": "warn",             // Team Preference
+    "no-else-return": "off",          // Team Preference
     "no-mixed-operators": "off",      // TBD
     "no-param-reassign": "off",       // TBD
     "no-plusplus": "off",             // TBD
