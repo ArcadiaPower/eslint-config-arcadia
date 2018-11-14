@@ -10,9 +10,13 @@ module.exports = {
     "arrow-parens": ["error", "as-needed", {    // Team Preference
         "requireForBlockBody": true
     }],
-    "class-methods-use-this": "off",      // TBD
-    "comma-dangle": ["error", {           // Team Preference
-      "objects": "always-multiline"
+    "class-methods-use-this": "off",    // TBD
+    "comma-dangle": ["error", {         // Team Preference
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "never",
+      "exports": "never",
+      "functions": "ignore"
     }],
     "consistent-return": "off",         // TBD
     "default-case": "off",              // TBD
