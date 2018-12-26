@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-arcadia",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Arcadia Power's ESLint Configuration",
   "main": "index.js",
   "author": "Arcadia Power Engineering",

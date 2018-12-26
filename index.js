@@ -70,7 +70,47 @@ module.exports = {
     "react/prefer-stateless-function": "off",     // Team Preference
     "react/require-default-props": "off",         // TBD
     "react/self-closing-comp": "off",             // TBD
-    "react/sort-comp": "off",                     // TBD
+    "react/sort-comp": ["error", {                // Team Preference
+      "order": [
+        "static-methods",
+        "/constructor/",
+        "/state/",
+        "instance-variables",
+        "lifecycle",
+        "everything-else",
+        "getters",
+        "render"
+      ],
+      "groups": {
+        "lifecycle": [
+          "childContextTypes",
+          "componentDidCatch",
+          "componentDidMount",
+          "componentDidUpdate",
+          "componentWillMount",
+          "componentWillReceiveProps",
+          "componentWillUnmount",
+          "componentWillUpdate",
+          "constructor",
+          "contextTypes",
+          "defaultProps",
+          "displayName",
+          "getChildContext",
+          "getDefaultProps",
+          "getDerivedStateFromProps",
+          "getInitialState",
+          "getSnapshotBeforeUpdate",
+          "mixins",
+          "propTypes",
+          "shouldComponentUpdate",
+          "state",
+          "statics",
+          "UNSAFE_componentWillMount",
+          "UNSAFE_componentWillReceiveProps",
+          "UNSAFE_componentWillUpdate"
+        ]
+      }
+    }],
 
     "sort-keys": "error",                         // Team Preference
     "space-before-function-paren": "off"          // Team Preference
