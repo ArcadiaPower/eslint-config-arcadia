@@ -7,11 +7,9 @@ module.exports = {
   },
   "rules": {
     "arrow-body-style": "off",                  // Team Preference
-    "arrow-parens": ["error", "as-needed", {    // Team Preference
-        "requireForBlockBody": true
-    }],
-    "class-methods-use-this": "off",    // TBD
-    "comma-dangle": ["error", {         // Team Preference
+    "arrow-parens": ["error", "as-needed"],     // Team Preference
+    "class-methods-use-this": "off",            // TBD
+    "comma-dangle": ["error", {                 // Team Preference
       "arrays": "always-multiline",
       "objects": "always-multiline",
       "imports": "never",
