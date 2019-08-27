@@ -25,6 +25,7 @@ module.exports = {
     "import/first": "off",                        // Team Preference
     "import/no-extraneous-dependencies": "off",   // TBD
     "import/no-unresolved": "off",                // TBD
+    "import/prefer-default-export": "off",
 
     "jsx-a11y/alt-text": "off",                                 // TBD
     "jsx-a11y/anchor-has-content": "off",                       // TBD
