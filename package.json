@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-arcadia",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Arcadia Power's ESLint Configuration",
   "main": "index.js",
   "author": "Arcadia Power Engineering",
@@ -14,7 +14,6 @@
     "eslint-config-airbnb": ">=16.1.0",
     "eslint-plugin-react": ">=7.8.2",
     "eslint-plugin-import": ">=2.7.0",
-    "eslint-plugin-jsx-a11y": ">=6.0.2",
-    "eslint-plugin-import": ">=2.7.0"
+    "eslint-plugin-jsx-a11y": ">=6.0.2"
   }
 }
