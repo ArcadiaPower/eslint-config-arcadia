@@ -12,8 +12,8 @@ module.exports = {
     "comma-dangle": ["error", {                 // Team Preference
       "arrays": "always-multiline",
       "objects": "always-multiline",
-      "imports": "never",
-      "exports": "never",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
       "functions": "ignore"
     }],
     "consistent-return": "off",         // TBD
