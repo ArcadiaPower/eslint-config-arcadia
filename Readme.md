@@ -1,6 +1,9 @@
-# Arcadia Power Engineering's ESLint configuration.
-
+# Arcadia Power Engineering's ESLint configuration
 Our ESLint configuration is a modified version of [AirBNB's excellent config](https://github.com/airbnb/javascript).
+
+Code Name: `Cardinal`
+
+<img src="https://images.pexels.com/photos/905248/pexels-photo-905248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="250px" />
 
 ## Usage
 
