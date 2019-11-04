@@ -58,6 +58,7 @@ module.exports = {
     "react/forbid-prop-types": "off",             // TBD
     "react/jsx-boolean-value": ["error", "always"],
     "react/jsx-closing-bracket-location": "off",  // TBD --fixable
+    "react/jsx-curly-spacing": ["error", {"when": "always", "attributes": false, "children": true}], // Team Preference
     "react/jsx-no-bind": "off",                   // TBD
     "react/jsx-no-target-blank": "off",           // TBD
     "react/jsx-no-undef": "off",                  // TBD
